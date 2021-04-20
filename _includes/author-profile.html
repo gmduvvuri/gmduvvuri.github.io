@@ -114,10 +114,12 @@
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
-      {% endif %}
+        {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+        {% endif %}
+      {% if author.ads %}
+        <li><a href="{{ author.ads }}"><img src={{ads.svg | prepend: "/images/" | prepend: base_path}} alt="Astrophysics Data System">ADS</a></li>
     </ul>
   </div>
 </div>
