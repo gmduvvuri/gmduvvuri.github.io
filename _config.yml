@@ -73,7 +73,7 @@ author:
   avatar           : "profile.jpeg"
   bio              : "Graduate Student in the Department of Astrophysics & Planetary Science at CU Boulder"
   location         : "Boulder, CO"
-  employer         : "Astrophysics & Planetary Science, CU Boulder / Center for Astrophysics & Space Astronomy"
+  employer         : "Astrophysics & Planetary Science, CU Boulder\ Center for Astrophysics & Space Astronomy"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : girish.duvvuri@colorado.edu
   github           : "gmduvvuri"
@@ -142,9 +142,9 @@ collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
-  # publications:
-  #   output: true
-  #   permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
@@ -156,16 +156,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -174,14 +174,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -192,22 +192,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+   #- scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
