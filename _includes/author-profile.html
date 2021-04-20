@@ -44,7 +44,7 @@
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
         {% endif %}
       {% if author.ads %}
-        <li><a href="{{ author.ads }}"><i class="ai ai-orcid-square ai-fw"></i> ADS</a></li>
+        <li><a href="{{ author.ads }}"><img src={{ "ads.svg" | prepend: "/images/" | prepend: base_path}} alt="Astrophysics Data System"> ADS</a></li>
 {% endif %}
     </ul>
   </div>
