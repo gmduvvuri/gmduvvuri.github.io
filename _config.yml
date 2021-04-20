@@ -73,12 +73,13 @@ author:
   avatar           : "profile.jpeg"
   bio              : "Graduate Student in the Department of Astrophysics & Planetary Science at CU Boulder"
   location         : "Boulder, CO"
-  employer         : "Astrophysics & Planetary Science, CU Boulder\ Center for Astrophysics & Space Astronomy"
+  # employer         : "Astrophysics & Planetary Science, CU Boulder\ Center for Astrophysics & Space Astronomy"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : girish.duvvuri@colorado.edu
   github           : "gmduvvuri"
   orcid            : "https://orcid.org/0000-0002-7119-2543"
   twitter          : "GirishDuvvuri"
+  ads              : "<a href="https://ui.adsabs.harvard.edu/search/q=%3D(author%3A%22Duvvuri%2C%20G.%20M.%22%20OR%20%20author%3A%22Duvvuri%2C%20Girish%20M.%22%20OR%20author%3A%22Duvvuri%2C%20Girish%22)%20&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</>"
 
 
 # Reading Files
@@ -142,9 +143,9 @@ collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
@@ -183,14 +184,14 @@ defaults:
   #     share: true
   #     comments: true
   # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: publications
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _portfolio
   # - scope:
   #     path: ""
