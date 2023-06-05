@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Girish M. Duvvuri"
-excerpt: "(almost) Graduate of the Department of Astrophysics & Planetary Science at CU Boulder"
+excerpt: "Graduate of the Department of Astrophysics & Planetary Science at CU Boulder"
 author_profile: true
 redirect_from:
   - /about/
