@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Girish M. Duvvuri"
-excerpt: "Graduate of the Department of Astrophysics & Planetary Science at CU Boulder"
+excerpt: "Postdoctoral Scholar in the Department of Physics and Astronomy at Vanderbilt University"
 author_profile: true
 redirect_from:
   - /about/
