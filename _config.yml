@@ -84,7 +84,7 @@ author:
 # Reading Files
 include:
   - .htaccess
-  # - _pages
+  - _pages
   - files
 exclude:
   - "*.sublime-project"
@@ -167,12 +167,12 @@ kramdown:
   #     share: true
   #     related: true
   # _pages
-  # - scope:
-  #     path: ""
-  #     type: pages
-  #   values:
-  #     layout: single
-  #     author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _teaching
   # - scope:
   #     path: ""
