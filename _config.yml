@@ -138,7 +138,7 @@ kramdown:
 
 
 # Collections
-collections:
+# collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
@@ -154,7 +154,7 @@ collections:
 
 
 # Defaults
-defaults:
+# defaults:
   # _posts
   # - scope:
   #     path: ""
